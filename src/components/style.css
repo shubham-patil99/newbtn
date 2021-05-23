@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color:#e8f4f6 ;
+}
+
+
+
+.image{
+    width: 30rem;
+    height:15rem;
+    text-align: center;
+    position: relative;
+    background-color: coral;
+}
+
+.img1{
+    height:13rem;
+    position: relative;
+    background-color: coral;
+}
+
+.image23i{
+    height:14rem;
+    position: relative;
+    background-color: coral;
+}
+
+.image23{
+    width: 30rem;
+    height:15rem;
+    text-align: center;
+    position: relative;
+    background-color: coral;
+}
+
+
+
+button{
+    background-color: #f5f9f9;
+    border-radius: 50px;
+    width:3.5rem;
+    height:3.5rem;
+    border-color: #c4c5c5;
+    outline:none;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 2rem;
+    position: relative;
+}
+
+button:hover{
+    border-color: #c4c5c5;
+    width: 5rem;
+    height:5rem;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tab-pane{
+    width:30rem;
+    text-align: center;
+    position: relative;
+}
+
+nav{
+    margin-left: 20rem;
+    text-align: center;
+    position: relative;
+}
+
+.full-content{
+    text-align: center;
+    position: relative;
+
+}
+
+.nav{
+    margin-top: 2rem;
+    margin-left: 20rem;
+    position: relative;
+}
+
+.nav-item{
+    margin-left: 4rem;
+    position: relative;
+}
+
+.whole{
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tab-content{
+    background-color: coral;
+    text-align: center;
+    height: 23rem;
+    margin-left: 20rem;
+    box-shadow: 5px 10px 14px #888888;
+    margin-right: 20rem;
+    padding: 2rem;
+    position: relative;
+}
+
+
+.tab-pane{
+    text-align: center;
+    position: relative;
+}
+
+html{
+    text-align: center;
+    position: relative;
+}
+
+body{
+    position: relative;
+    text-align: center;
+}
+
+.btn1content{
+    font-size: 1.5rem;
+    position: relative;
+    background-color: coral;
+}
+
+@media only screen and (max-width: 415px){
+
+    .full-content{
+        max-width: 100%;
+        text-align: center;
+        width: 50rem;
+        margin-top: 2rem;
+    }
+
+    html{
+        width: 32rem;
+    }
+
+    .tab-content{
+        max-width: 100%;
+        text-align: center;
+        margin:0;
+        width: 50rem;
+    }
+
+    body{
+        max-width: 100%;
+    }
+
+    .image{
+        max-width: 100%;
+        margin-right: 2rem;
+        margin-left: 0;
+    }
+
+    .img1{
+        max-width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    .btn1content{
+        max-width: 100%;
+
+    } 
+    
+    .tab-pane{
+        margin: 0;
+        float: left;
+        background-color: coral;
+    }
+
+    .nav{
+        float: left;
+        margin: 0;
+        margin-top: 1.5rem;
+     }   
+
+     nav{
+         float: left;
+     }
+
+     .nav-item{
+         float: left;
+         margin: 1.7rem;
+     }
+
+}
